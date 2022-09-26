@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @pilot %>
+
+<div>
+  <%= link_to "Edit this pilot", edit_pilot_path(@pilot) %> |
+  <%= link_to "Back to pilots", pilots_path %>
+
+  <%= button_to "Destroy this pilot", @pilot, method: :delete %>
+</div>
